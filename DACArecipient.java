@@ -1,11 +1,3 @@
-/**
- * Represents one person receiving deferred action for childhood arrivals (DACA).
- * 
- * <TODO add @author info here for all group-mates!>
- *
- * @version 1.2
- **/
-
 //TODO: Complete UML class diagram
 /* UML CLASS DIAGRAM:
 -----------------------------------------
@@ -44,26 +36,33 @@
 -----------------------------------------
 */
 
+/**
+ * Represents one person receiving deferred action for childhood arrivals (DACA).
+ * 
+ * @author Your name here
+ *
+ * @version 1.2
+ */
 public class DACArecipient
 {
 	/***** INSTANCE VARIABLES *****/
-  private String surname;
-  private String givenName;
-  private String uscisNumber;
-  private String countryOfOrigin;
-  private int birthday, validFromDate, expirationDate;
-  private char sex;
+	private String surname;
+	private String givenName;
+	private String uscisNumber;
+	private String countryOfOrigin;
+	private int birthday, validFromDate, expirationDate;
+	private char sex;
 	
-
+	
 	//TODO: don't forget to copy all your methods from the previous labs!
 	
-  /**** CONSTRUCTORS ****/
-  //TODO: Write the no-argument constructor and full constructor. Remember to include documentation for each method.
-
-
+	/**** CONSTRUCTORS ****/
+	//TODO: Write the no-argument constructor and full constructor. Remember to include documentation for each method.
+	
+	
 	/***** OTHER REQUIRED METHODS *****/
-  public String toString()
-  {
-    return "Surname: " + surname + ", Given Name: " + givenName + ", USCIS Number: " + uscisNumber + ", Country of Origin: " + countryOfOrigin + ", Birthday: " + birthday + ", Valid From Date: " + validFromDate + ", Expiration Date: " + expirationDate + ", Sex: " + sex;
-  }
+	public String toString()
+	{
+		return "Surname: " + surname + ", Given Name: " + givenName + ", USCIS Number: " + uscisNumber + ", Country of Origin: " + countryOfOrigin + ", Birthday: " + birthday + ", Valid From Date: " + validFromDate + ", Expiration Date: " + expirationDate + ", Sex: " + sex;
+	}
 }
