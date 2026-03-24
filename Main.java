@@ -1,13 +1,12 @@
-/********************************************
-*	DACArecipient Tester
-*********************************************
-*	PROGRAM DESCRIPTION:
-*	This program is to test methods of the DACArecipient class.
-*********************************************/
-class Main 
+/**
+ * Your program description here
+ * 
+ * @author Your name here
+ */
+public class Main 
 {
-  public static void main(String[] args) 
+	public static void main(String[] args) 
 	{
-
-  }
+	
+	}
 }
